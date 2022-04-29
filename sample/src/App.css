@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+.header{
+  background-color: red;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content:space-around; 
+  align-items: center;
+
+  
+}
+
+.login , .about , .signup{
+  cursor: pointer;
+}
+
+.statement{
+  margin-top: 150px;
+  width: fit-content;
+  align-items: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-weight: bold;
+  height: 30px
+  
+  
+  
+  
+}
+ #title {
+  margin-top: 2px;
+  width: fit-content;
+  align-items: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-weight: bold;
+  height: 30px
+  
+ }
+
+ .statement1{
+  margin-top: 5px;
+  width: fit-content;
+  align-items: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-weight: bold;
+  height: 30px
+ }
+
+ #title1 {
+  margin-top: 2px;
+  width: fit-content;
+  align-items: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-weight: bold;
+  height: 30px
+  
+ }
+
+ #btn{
+   margin-left: 45%;
+   margin-right: 40%;
+   margin-top: 5px;
+ }
+
+ .image img{
+   height: 100px;
+   width: 200px;
+   position: static;
+ }
